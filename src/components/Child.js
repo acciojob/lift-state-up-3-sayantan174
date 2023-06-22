@@ -6,11 +6,11 @@ const Child = (props)=>{
         <div className='child'>
         <h2>Child Component 1</h2>
         <button onClick={(e)=>{
-            props.func(e.target.value);
+            props.func(" Option 1");
         }}>Option 1</button>
         <h2>Child Component 2</h2>
         <button onClick={(e)=>{
-            props.func(e.target.value);
+            props.func(" Option 2");
         }}>Option 2</button>
         </div>
     )
